@@ -4,7 +4,7 @@
 
 ### Desenvolver: 
 
-- Página de login;
+- Página de login; 
 - Página Inscrever-se;
 - Página Esqueci a senha.
 
