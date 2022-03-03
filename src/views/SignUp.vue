@@ -8,7 +8,7 @@
         <button>Registrar</button>
         <br>
         <span>
-            Ou retorno para o 
+            ou retorno para o 
             <router-link to="login">Login</router-link>
         </span>
     </div>

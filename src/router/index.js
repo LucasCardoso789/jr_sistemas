@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import SignUp from '../views/SignUp.vue'
+import ForgotPassword from '../views/ForgotPassword.vue'
+import PageAdmin from '../views/PageAdmin.vue'
 
 Vue.use(VueRouter)
 
@@ -29,6 +31,16 @@ const routes = [
     path: '/registrar',
     name: 'signUp',
     component: SignUp
+  },
+  {
+    path: '/esqueceu_senha',
+    name: 'forgotPassword',
+    component: ForgotPassword
+  },
+  {
+    path: '/admin',
+    name: 'pageAdmin',
+    component: PageAdmin
   },
 ]
 
