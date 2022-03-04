@@ -2,7 +2,7 @@
     <div class="login">
         <span class="db"><img src="../assets/images/logos/logo-icon.png" alt="logo" /></span>
         <h1>Login</h1>
-            <input type="text" placeholder="Email">
+            <input type="text" class="form-control form-control-lg" placeholder="Email">
         <br>
             <input type="password" placeholder="Senha">
         <br>

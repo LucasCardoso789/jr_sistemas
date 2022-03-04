@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="">
+<html dir="ltr" lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/assets/images/favicon.png">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../src/assets/images/favicon.png">
+    <title>Ample admin Template - The Ultimate Multipurpose admin template</title>
+    <!-- chartist CSS -->
+    <link href="../src/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../src/assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!--c3 CSS -->
+    <link href="../src/assets/libs/morris.js/morris.css" rel="stylesheet">
+    <link href="../src/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../src/assets/libs/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
+    <link href="../src/assets/extra-libs/calendar/calendar.css" rel="stylesheet" />
+    <!-- needed css -->
+    <link href="../src/dist/css/style.min.css" rel="stylesheet">
   </head>
+  
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -15,3 +36,49 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+
+<script src="../src/assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../src/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../src/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- apps -->
+    <script src="../src/dist/js/app.min.js"></script>
+    <!-- icon sidebar -->
+    <script>
+    $(function() {
+        "use strict";
+        $("#main-wrapper").AdminSettings({
+            Theme: false, // this can be true or false ( true means dark and false means light ),
+            Layout: 'vertical',
+            LogoBg: 'skin5', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6 
+            NavbarBg: 'skin6', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+            SidebarType: 'iconbar', // You can change it full / mini-sidebar / iconbar / overlay
+            SidebarColor: 'skin5', // You can change the Value to be skin1/skin2/skin3/skin4/skin5/skin6
+            SidebarPosition: false, // it can be true / false ( true means Fixed and false means absolute )
+            HeaderPosition: false, // it can be true / false ( true means Fixed and false means absolute )
+            BoxedLayout: false, // it can be true / false ( true means Boxed and false means Fluid ) 
+        });
+    });
+    
+    </script>
+    <script src="../src/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../src/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="../src/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../src/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../src/dist/js/custom.min.js"></script>
+    <!--This page JavaScript -->
+    <script src="../src/assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../src/dist/js/pages/chartist/chartist-plugin-tooltip.js"></script>
+    <script src="../src/assets/extra-libs/c3/d3.min.js"></script>
+    <script src="../src/assets/extra-libs/c3/c3.min.js"></script>
+    <script src="../src/assets/libs/raphael/raphael.min.js"></script>
+    <script src="../src/assets/libs/morris.js/morris.min.js"></script>
+    <script src="../src/dist/js/pages/dashboards/dashboard1.js"></script>
+    <script src="../src/assets/libs/moment/min/moment.min.js"></script>
+    <script src="../src/assets/libs/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script src="../src/dist/js/pages/calendar/cal-init.js"></script>
